@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bankole2000/pocketbase/apis"
+	"github.com/bankole2000/pocketbase/models"
+	"github.com/bankole2000/pocketbase/tests"
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestRequestInfo(t *testing.T) {

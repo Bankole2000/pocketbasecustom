@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/bankole2000/pocketbase/tools/auth"
+	"github.com/bankole2000/pocketbase/tools/cron"
+	"github.com/bankole2000/pocketbase/tools/mailer"
+	"github.com/bankole2000/pocketbase/tools/rest"
+	"github.com/bankole2000/pocketbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/tools/auth"
-	"github.com/pocketbase/pocketbase/tools/cron"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/rest"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // SecretMask is the default settings secrets replacement value

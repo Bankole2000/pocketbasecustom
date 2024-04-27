@@ -9,9 +9,9 @@ import (
 	"syscall"
 
 	"github.com/fatih/color"
-	"github.com/pocketbase/pocketbase/cmd"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/bankole2000/pocketbase/cmd"
+	"github.com/bankole2000/pocketbase/core"
+	"github.com/bankole2000/pocketbase/tools/list"
 	"github.com/spf13/cobra"
 )
 

@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/plugins/migratecmd"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/bankole2000/pocketbase/daos"
+	"github.com/bankole2000/pocketbase/models"
+	"github.com/bankole2000/pocketbase/models/schema"
+	"github.com/bankole2000/pocketbase/plugins/migratecmd"
+	"github.com/bankole2000/pocketbase/tests"
+	"github.com/bankole2000/pocketbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -71,10 +71,10 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"github.com/bankole2000/dbx"
+	"github.com/bankole2000/pocketbase/daos"
+	m "github.com/bankole2000/pocketbase/migrations"
+	"github.com/bankole2000/pocketbase/models"
 )
 
 func init() {
@@ -248,10 +248,10 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models"
+	"github.com/bankole2000/dbx"
+	"github.com/bankole2000/pocketbase/daos"
+	m "github.com/bankole2000/pocketbase/migrations"
+	"github.com/bankole2000/pocketbase/models"
 )
 
 func init() {
@@ -503,11 +503,11 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/bankole2000/dbx"
+	"github.com/bankole2000/pocketbase/daos"
+	m "github.com/bankole2000/pocketbase/migrations"
+	"github.com/bankole2000/pocketbase/models/schema"
+	"github.com/bankole2000/pocketbase/tools/types"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-module github.com/bankole2000/pocketbasecustom
+module github.com/bankole2000/pocketbase
 
 go 1.21
 

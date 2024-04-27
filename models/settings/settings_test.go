@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bankole2000/pocketbase/models/settings"
+	"github.com/bankole2000/pocketbase/tools/auth"
+	"github.com/bankole2000/pocketbase/tools/mailer"
+	"github.com/bankole2000/pocketbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/auth"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestSettingsValidate(t *testing.T) {

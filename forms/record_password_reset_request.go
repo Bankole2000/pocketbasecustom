@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/bankole2000/pocketbase/core"
+	"github.com/bankole2000/pocketbase/daos"
+	"github.com/bankole2000/pocketbase/mails"
+	"github.com/bankole2000/pocketbase/models"
+	"github.com/bankole2000/pocketbase/models/schema"
+	"github.com/bankole2000/pocketbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/mails"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 // RecordPasswordResetRequest is an auth record reset password request form.

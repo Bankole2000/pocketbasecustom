@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/bankole2000/pocketbase/core"
+	"github.com/bankole2000/pocketbase/models/settings"
+	"github.com/bankole2000/pocketbase/tools/filesystem"
+	"github.com/bankole2000/pocketbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 const (

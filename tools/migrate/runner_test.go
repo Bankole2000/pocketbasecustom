@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/bankole2000/dbx"
+	"github.com/bankole2000/pocketbase/tools/list"
 	_ "modernc.org/sqlite"
 )
 

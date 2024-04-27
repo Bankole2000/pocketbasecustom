@@ -3,10 +3,10 @@ package migrations
 import (
 	"fmt"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
+	"github.com/bankole2000/dbx"
+	"github.com/bankole2000/pocketbase/daos"
+	"github.com/bankole2000/pocketbase/models"
+	"github.com/bankole2000/pocketbase/models/schema"
 )
 
 // Reset all previously inserted NULL values to the fields zero-default.
