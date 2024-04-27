@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/bankole2000/pocketbase/forms"
+	"github.com/bankole2000/pocketbase/models/settings"
+	"github.com/bankole2000/pocketbase/tests"
+	"github.com/bankole2000/pocketbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 func TestNewSettingsUpsert(t *testing.T) {

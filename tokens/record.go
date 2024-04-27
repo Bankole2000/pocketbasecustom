@@ -3,10 +3,10 @@ package tokens
 import (
 	"errors"
 
+	"github.com/bankole2000/pocketbase/core"
+	"github.com/bankole2000/pocketbase/models"
+	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // NewRecordAuthToken generates and returns a new auth record authentication token.

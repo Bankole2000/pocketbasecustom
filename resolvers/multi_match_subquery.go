@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pocketbase/dbx"
+	"github.com/bankole2000/dbx"
 )
 
 var _ dbx.Expression = (*multiMatchSubquery)(nil)

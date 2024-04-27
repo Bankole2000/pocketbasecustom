@@ -5,13 +5,13 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/migrate"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/bankole2000/dbx"
+	"github.com/bankole2000/pocketbase/daos"
+	"github.com/bankole2000/pocketbase/models"
+	"github.com/bankole2000/pocketbase/models/schema"
+	"github.com/bankole2000/pocketbase/models/settings"
+	"github.com/bankole2000/pocketbase/tools/migrate"
+	"github.com/bankole2000/pocketbase/tools/types"
 )
 
 var AppMigrations migrate.MigrationsList

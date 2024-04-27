@@ -4,9 +4,10 @@ Thanks for taking the time to improve PocketBase!
 
 This document describes how to prepare a PR for a change in the main repository.
 
-- [Prerequisites](#prerequisites)
-- [Making changes in the Go code](#making-changes-in-the-go-code)
-- [Making changes in the Admin UI](#making-changes-in-the-admin-ui)
+- [Contributing to PocketBase](#contributing-to-pocketbase)
+  - [Prerequisites](#prerequisites)
+  - [Making changes in the Go code](#making-changes-in-the-go-code)
+  - [Making changes in the Admin UI](#making-changes-in-the-admin-ui)
 
 ## Prerequisites
 
