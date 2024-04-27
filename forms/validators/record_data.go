@@ -6,7 +6,6 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
@@ -15,6 +14,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
+	"github.com/pocketbase/dbx"
 )
 
 var requiredErr = validation.NewError("validation_required", "Missing required value")

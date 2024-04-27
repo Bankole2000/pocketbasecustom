@@ -3,10 +3,10 @@ package migrations
 import (
 	"fmt"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
+	"github.com/pocketbase/dbx"
 )
 
 // Normalizes old single and multiple values of MultiValuer fields (file, select, relation).

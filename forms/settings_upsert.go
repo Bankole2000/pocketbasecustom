@@ -4,12 +4,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/settings"
 	"github.com/bankole2000/pocketbase/tools/types"
+	"github.com/pocketbase/dbx"
 )
 
 // SettingsUpsert is a [settings.Settings] upsert (create/update) form.

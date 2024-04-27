@@ -7,13 +7,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
 	"github.com/bankole2000/pocketbase/tools/dbutils"
 	"github.com/bankole2000/pocketbase/tools/list"
 	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/bankole2000/pocketbase/tools/types"
+	"github.com/pocketbase/dbx"
 )
 
 // MaxExpandDepth specifies the max allowed nested expand depth path.

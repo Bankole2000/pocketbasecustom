@@ -11,7 +11,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/migrations/logs"
@@ -20,6 +19,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
+	"github.com/pocketbase/dbx"
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
 )

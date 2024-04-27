@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/tools/dbutils"
 	"github.com/bankole2000/pocketbase/tools/list"
+	"github.com/pocketbase/dbx"
 )
 
 // Adds _collections indexes column (if not already).

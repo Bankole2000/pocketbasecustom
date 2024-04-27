@@ -71,7 +71,7 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/models"
@@ -248,7 +248,7 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/models"
@@ -503,7 +503,7 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/models/schema"

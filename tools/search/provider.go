@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"golang.org/x/sync/errgroup"
 )
 

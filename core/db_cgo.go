@@ -5,8 +5,8 @@ package core
 import (
 	"database/sql"
 
-	"github.com/bankole2000/dbx"
 	"github.com/mattn/go-sqlite3"
+	"github.com/pocketbase/dbx"
 )
 
 func init() {

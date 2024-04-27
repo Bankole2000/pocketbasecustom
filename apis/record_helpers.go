@@ -7,7 +7,6 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
@@ -17,6 +16,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/rest"
 	"github.com/bankole2000/pocketbase/tools/search"
 	"github.com/labstack/echo/v5"
+	"github.com/pocketbase/dbx"
 )
 
 const ContextRequestInfoKey = "requestInfo"

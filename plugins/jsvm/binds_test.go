@@ -13,7 +13,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/apis"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
@@ -25,6 +24,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/dop251/goja"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
+	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )
 

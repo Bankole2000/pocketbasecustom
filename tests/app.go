@@ -9,12 +9,12 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/migrations/logs"
 	"github.com/bankole2000/pocketbase/tools/mailer"
 	"github.com/bankole2000/pocketbase/tools/migrate"
+	"github.com/pocketbase/dbx"
 )
 
 // TestApp is a wrapper app instance used for testing.

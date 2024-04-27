@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 )
 
 // Cleanup dangling deleted collections references

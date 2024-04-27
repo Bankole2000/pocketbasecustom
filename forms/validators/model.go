@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
+	"github.com/pocketbase/dbx"
 )
 
 // UniqueId checks whether the provided model id already exists.

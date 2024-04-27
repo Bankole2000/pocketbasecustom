@@ -8,7 +8,6 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/forms"
@@ -20,6 +19,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/bankole2000/pocketbase/tools/subscriptions"
 	"github.com/labstack/echo/v5"
+	"github.com/pocketbase/dbx"
 	"golang.org/x/oauth2"
 )
 

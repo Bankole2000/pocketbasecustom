@@ -5,7 +5,6 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/forms"
@@ -13,6 +12,7 @@ import (
 	"github.com/bankole2000/pocketbase/resolvers"
 	"github.com/bankole2000/pocketbase/tools/search"
 	"github.com/labstack/echo/v5"
+	"github.com/pocketbase/dbx"
 )
 
 // bindRecordCrudApi registers the record crud api endpoints and

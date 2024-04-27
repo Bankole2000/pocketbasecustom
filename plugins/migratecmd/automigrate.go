@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/tools/migrate"
+	"github.com/pocketbase/dbx"
 )
 
 const collectionsStoreKey = "migratecmd_collections"

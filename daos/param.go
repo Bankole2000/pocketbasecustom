@@ -3,10 +3,10 @@ package daos
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/bankole2000/pocketbase/tools/types"
+	"github.com/pocketbase/dbx"
 )
 
 // ParamQuery returns a new Param select query.

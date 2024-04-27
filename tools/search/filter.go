@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/bankole2000/pocketbase/tools/store"
 	"github.com/ganigeorgiev/fexpr"
+	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )
 

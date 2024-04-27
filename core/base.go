@@ -12,7 +12,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/settings"
@@ -26,6 +25,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/subscriptions"
 	"github.com/bankole2000/pocketbase/tools/types"
 	"github.com/fatih/color"
+	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )
 

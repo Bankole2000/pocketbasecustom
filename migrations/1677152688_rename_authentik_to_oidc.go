@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 )
 
 // This migration replaces the "authentikAuth" setting with "oidc".

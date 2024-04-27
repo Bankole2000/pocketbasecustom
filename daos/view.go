@@ -7,7 +7,6 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
 	"github.com/bankole2000/pocketbase/tools/inflector"
@@ -15,6 +14,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/security"
 	"github.com/bankole2000/pocketbase/tools/tokenizer"
 	"github.com/bankole2000/pocketbase/tools/types"
+	"github.com/pocketbase/dbx"
 )
 
 // DeleteView drops the specified view name.

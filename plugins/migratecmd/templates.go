@@ -339,7 +339,7 @@ func (p *plugin) goBlankTemplate() (string, error) {
 	const template = `package %s
 
 import (
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	m "github.com/bankole2000/pocketbase/migrations"
 )
 
@@ -370,7 +370,7 @@ func (p *plugin) goSnapshotTemplate(collections []*models.Collection) (string, e
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/models"
@@ -409,7 +409,7 @@ func (p *plugin) goCreateTemplate(collection *models.Collection) (string, error)
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/models"
@@ -457,7 +457,7 @@ func (p *plugin) goDeleteTemplate(collection *models.Collection) (string, error)
 import (
 	"encoding/json"
 
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/models"

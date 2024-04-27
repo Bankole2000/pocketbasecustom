@@ -7,7 +7,6 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models/settings"
 	"github.com/bankole2000/pocketbase/tools/filesystem"
@@ -15,6 +14,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/mailer"
 	"github.com/bankole2000/pocketbase/tools/store"
 	"github.com/bankole2000/pocketbase/tools/subscriptions"
+	"github.com/pocketbase/dbx"
 )
 
 // App defines the main PocketBase app interface.

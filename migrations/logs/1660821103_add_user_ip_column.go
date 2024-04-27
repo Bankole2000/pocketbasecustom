@@ -1,7 +1,7 @@
 package logs
 
 import (
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 )
 
 func init() {

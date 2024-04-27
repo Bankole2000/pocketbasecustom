@@ -1,10 +1,10 @@
 package migrations
 
 import (
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
+	"github.com/pocketbase/dbx"
 )
 
 // Update all collections with json fields to have a default MaxSize json field option.

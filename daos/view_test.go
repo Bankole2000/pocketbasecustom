@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
 	"github.com/bankole2000/pocketbase/tests"
 	"github.com/bankole2000/pocketbase/tools/list"
+	"github.com/pocketbase/dbx"
 )
 
 func ensureNoTempViews(app core.App, t *testing.T) {

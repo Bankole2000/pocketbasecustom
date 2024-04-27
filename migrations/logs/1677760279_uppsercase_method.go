@@ -1,7 +1,7 @@
 package logs
 
 import (
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 )
 
 // This migration normalizes the request logs method to UPPERCASE (eg. "get" => "GET").

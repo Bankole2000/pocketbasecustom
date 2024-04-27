@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/tools/search"
+	"github.com/pocketbase/dbx"
 )
 
 func TestFilterDataBuildExpr(t *testing.T) {

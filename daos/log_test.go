@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/tests"
 	"github.com/bankole2000/pocketbase/tools/types"
+	"github.com/pocketbase/dbx"
 )
 
 func TestLogQuery(t *testing.T) {

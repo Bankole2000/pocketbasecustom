@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
 	"github.com/bankole2000/pocketbase/tools/list"
+	"github.com/pocketbase/dbx"
 )
 
 // CollectionQuery returns a new Collection select query.

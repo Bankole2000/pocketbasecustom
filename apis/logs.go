@@ -3,11 +3,11 @@ package apis
 import (
 	"net/http"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/tools/search"
 	"github.com/labstack/echo/v5"
+	"github.com/pocketbase/dbx"
 )
 
 // bindLogsApi registers the request logs api endpoints.

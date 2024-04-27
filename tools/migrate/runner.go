@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/bankole2000/dbx"
 	"github.com/fatih/color"
+	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )
 

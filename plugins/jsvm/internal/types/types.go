@@ -13,7 +13,7 @@ import (
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/plugins/jsvm"
 	"github.com/bankole2000/pocketbase/tools/list"
-	"github.com/bankole2000/tygoja"
+	"github.com/pocketbase/tygoja"
 )
 
 const heading = `
@@ -1079,7 +1079,7 @@ func main() {
 		Packages: map[string][]string{
 			"github.com/labstack/echo/v5/middleware":             {"Gzip", "BodyLimit"},
 			"github.com/go-ozzo/ozzo-validation/v4":              {"Error"},
-			"github.com/bankole2000/dbx":                         {"*"},
+			"github.com/pocketbase/dbx":                          {"*"},
 			"github.com/bankole2000/pocketbase/tools/security":   {"*"},
 			"github.com/bankole2000/pocketbase/tools/filesystem": {"*"},
 			"github.com/bankole2000/pocketbase/tools/template":   {"*"},

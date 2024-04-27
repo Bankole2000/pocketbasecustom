@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
 	"github.com/bankole2000/pocketbase/tools/search"
 	"github.com/bankole2000/pocketbase/tools/security"
+	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )
 

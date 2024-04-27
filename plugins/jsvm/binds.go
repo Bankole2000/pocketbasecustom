@@ -15,7 +15,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/apis"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
@@ -38,6 +37,7 @@ import (
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
+	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 )

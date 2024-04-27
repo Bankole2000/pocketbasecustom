@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/tests"
 	"github.com/bankole2000/pocketbase/tools/types"
 	"github.com/labstack/echo/v5"
+	"github.com/pocketbase/dbx"
 )
 
 func TestAdminAuthWithPassword(t *testing.T) {

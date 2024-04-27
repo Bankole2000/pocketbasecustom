@@ -21,7 +21,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/core"
 	m "github.com/bankole2000/pocketbase/migrations"
 	"github.com/bankole2000/pocketbase/plugins/jsvm/internal/types/generated"
@@ -33,6 +32,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/fsnotify/fsnotify"
 	"github.com/labstack/echo/v5"
+	"github.com/pocketbase/dbx"
 )
 
 const (

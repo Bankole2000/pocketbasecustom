@@ -1,8 +1,8 @@
 package logs
 
 import (
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/tools/migrate"
+	"github.com/pocketbase/dbx"
 )
 
 var LogsMigrations migrate.MigrationsList

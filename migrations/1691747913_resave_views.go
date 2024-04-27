@@ -1,9 +1,9 @@
 package migrations
 
 import (
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/daos"
 	"github.com/bankole2000/pocketbase/models"
+	"github.com/pocketbase/dbx"
 )
 
 // Resave all view collections to ensure that the proper id normalization is applied.

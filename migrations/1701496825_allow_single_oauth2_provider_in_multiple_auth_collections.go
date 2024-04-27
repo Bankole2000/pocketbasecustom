@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	"github.com/bankole2000/dbx"
+	"github.com/pocketbase/dbx"
 )
 
 // Fixes the unique _externalAuths constraint for old installations

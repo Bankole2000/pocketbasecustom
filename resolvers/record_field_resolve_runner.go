@@ -7,7 +7,6 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bankole2000/dbx"
 	"github.com/bankole2000/pocketbase/models"
 	"github.com/bankole2000/pocketbase/models/schema"
 	"github.com/bankole2000/pocketbase/tools/dbutils"
@@ -15,6 +14,7 @@ import (
 	"github.com/bankole2000/pocketbase/tools/list"
 	"github.com/bankole2000/pocketbase/tools/search"
 	"github.com/bankole2000/pocketbase/tools/security"
+	"github.com/pocketbase/dbx"
 )
 
 // maxNestedRels defines the max allowed nested relations depth.
