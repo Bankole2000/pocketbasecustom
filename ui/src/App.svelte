@@ -77,8 +77,8 @@
         <aside class="app-sidebar">
             <a href="/" class="logo logo-sm" use:link>
                 <img
-                    src="{import.meta.env.BASE_URL}images/HaemIcon.png"
-                    alt="Haem logo"
+                    src="{import.meta.env.BASE_URL}images/LiviasoftIcon.png"
+                    alt="LiviaSoft logo"
                     width="40"
                     height="40"
                 />
