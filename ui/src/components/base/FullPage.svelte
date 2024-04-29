@@ -10,12 +10,12 @@
             <div class="block txt-center m-b-lg">
                 <figure class="logo">
                     <img
-                        src="{import.meta.env.BASE_URL}images/HaemIcon.png"
-                        alt="Haem logo"
-                        width="50"
-                        height="50"
+                        src="{import.meta.env.BASE_URL}images/LiviasoftLogo.png"
+                        alt="LiviaSoft logo"
+                        width="315"
+                        height="70"
                     />
-                    <span class="txt"><strong style="color: #194aef">Haem</strong> Admin</span>
+                    <!-- <span class="txt"><strong style="color: #194aef">LiviaSoft</strong> Admin</span> -->
                 </figure>
             </div>
             <div class="clearfix" />
